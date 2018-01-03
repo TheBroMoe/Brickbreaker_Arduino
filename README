@@ -1,0 +1,56 @@
+Mohammad Kebbi; 1496572
+
+* NOTE: Was given permission from Zachary Friggstad to work alone on this project as*
+* partner dropped the course and informed Student that expectations would be tempered*
+* slightly in regards to marking*
+
+Final Group Project: Brickbreaker
+
+Game Description:
+The goal of the game is player must smash a wall of bricks by deflecting a bouncing ball with a paddle.
+The paddle may move horizontally and is controlled with the joystick, the
+When all the bricks have been destroyed, a victory screen is displayed.
+
+The developement of this project consisted of 5 major milestones:
+1. Implementing the movement of the ball and the paddle
+
+2. Creating a two-dimensional array holding a structure with characteristics of the brick
+
+3. Working on the collision mechanics of the walls, the borders, as well as the paddle
+
+4. Creating a series of menus and display screens with messages to the player that involved
+	interaction using the touchscreen
+
+5. Small additions, including
+* a life counter (how many balls left in one play session)
+* Difficulty selection (easy or hard mode which adjusts the balls velocity)
+*Instruction menu
+
+Acknowledgements:
+	*	Used code developed in class for the paddles movement
+	* Received Help from Jason Cannon on how to develop two dimensional arrays
+	* For paddle collision, received help from Songhui Zhang
+Accessories:
+* 1x Arduino Mega Board (AMG)
+* 1x Joystick
+* 1x LCD Display
+
+Wiring Instructions:
+ REFER TO WIRING INSTRUCTIONS IN ECLASS FOR SCREEN WIRING
+ Joystick wiring:
+Arduino GND <--> GND
+Arduino 5V <--> 5V
+Arduino Analogue pin A1 <--> VRx
+Arduino Analogue pin A0 <--> VRy
+Arduino Pin 2 <--> SW
+
+How to run code:
+* Make sure wiring is correct:
+* Ensure lcd_image.cpp and .h are in the file with Brickbreaker.cpp
+* Compile using make and upload using make upload and run program
+
+Reccomendations to individuals who wish to repeat project:
+
+* Determine how you want to organise the properties of the bricks
+* Work out the collision physics and refine them as much as possible.
+	There are many sources online that can help with this
